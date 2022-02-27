@@ -85,18 +85,18 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaJ-Kz-zfx" userLabel="favButton">
-                                            <rect key="frame" x="295" y="85" width="54" height="49"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="favor-icon"/>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaJ-Kz-zfx" userLabel="favButton">
+                                            <rect key="frame" x="319" y="94" width="30" height="49"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="favor-icon"/>
                                             <connections>
                                                 <action selector="favoriteTweet:" destination="RZu-LX-x24" eventType="touchUpInside" id="dd8-10-Cic"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Nl-dt-69S" userLabel="retweetButton">
-                                            <rect key="frame" x="251" y="90" width="54" height="44"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="retweet-icon"/>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Nl-dt-69S" userLabel="retweetButton">
+                                            <rect key="frame" x="272" y="104" width="30" height="30"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="retweet-icon"/>
                                             <connections>
                                                 <action selector="retweet:" destination="RZu-LX-x24" eventType="touchUpInside" id="hRO-Z2-VQb"/>
                                             </connections>
@@ -115,7 +115,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="4Nl-dt-69S" secondAttribute="bottom" constant="5" id="oXS-TN-bme"/>
                                         <constraint firstItem="iwF-0t-c9h" firstAttribute="leading" secondItem="h08-7z-OOD" secondAttribute="leadingMargin" id="opi-1y-OLQ"/>
                                         <constraint firstItem="srl-y1-YcO" firstAttribute="top" secondItem="b1E-rq-Tfg" secondAttribute="bottom" constant="4" id="qQm-Nl-1eP"/>
-                                        <constraint firstItem="uaJ-Kz-zfx" firstAttribute="leading" secondItem="4Nl-dt-69S" secondAttribute="trailing" constant="-10" id="u6X-Uc-Z4K"/>
+                                        <constraint firstItem="uaJ-Kz-zfx" firstAttribute="leading" secondItem="4Nl-dt-69S" secondAttribute="trailing" id="u6X-Uc-Z4K"/>
                                     </constraints>
                                     <variation key="default">
                                         <mask key="constraints">
